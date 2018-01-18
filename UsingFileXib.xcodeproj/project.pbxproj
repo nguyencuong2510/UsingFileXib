@@ -14,6 +14,8 @@
 		5C3D431120086056009855DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C3D430F20086056009855DF /* LaunchScreen.storyboard */; };
 		5C3D431C20086056009855DF /* UsingFileXibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3D431B20086056009855DF /* UsingFileXibTests.swift */; };
 		5C3D432720086056009855DF /* UsingFileXibUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3D432620086056009855DF /* UsingFileXibUITests.swift */; };
+		5C3D433520086093009855DF /* TestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C3D433420086093009855DF /* TestView.xib */; };
+		5C3D43372008613B009855DF /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3D43362008613B009855DF /* TestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		5C3D432220086056009855DF /* UsingFileXibUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UsingFileXibUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C3D432620086056009855DF /* UsingFileXibUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingFileXibUITests.swift; sourceTree = "<group>"; };
 		5C3D432820086056009855DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C3D433420086093009855DF /* TestView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestView.xib; sourceTree = "<group>"; };
+		5C3D43362008613B009855DF /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				5C3D430D20086056009855DF /* Assets.xcassets */,
 				5C3D430F20086056009855DF /* LaunchScreen.storyboard */,
 				5C3D431220086056009855DF /* Info.plist */,
+				5C3D433420086093009855DF /* TestView.xib */,
+				5C3D43362008613B009855DF /* TestView.swift */,
 			);
 			path = UsingFileXib;
 			sourceTree = "<group>";
@@ -229,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C3D433520086093009855DF /* TestView.xib in Resources */,
 				5C3D431120086056009855DF /* LaunchScreen.storyboard in Resources */,
 				5C3D430E20086056009855DF /* Assets.xcassets in Resources */,
 				5C3D430C20086056009855DF /* Main.storyboard in Resources */,
@@ -256,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C3D43372008613B009855DF /* TestView.swift in Sources */,
 				5C3D430920086056009855DF /* ViewController.swift in Sources */,
 				5C3D430720086056009855DF /* AppDelegate.swift in Sources */,
 			);
